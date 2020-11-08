@@ -11,4 +11,4 @@ Constraints :
 - Connect end offices to digital hubs. Each end office must be connected to one of the slected digital hubs. Each hub can be connected to a limited number of end offices.
 - Connect customers to end offices. A large enough proportion of the customers must be connected. Each end office can be connected to a limited number of customers.
 
-The connections and selected hubs have attributed cost. The goal is to minimize that cost.
+The connections and selected hubs have attributed cost. The goal is to minimize the total cost.
