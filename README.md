@@ -15,5 +15,5 @@ The connections and selected hubs have attributed cost. The goal is to minimize 
 
 ## Optimization algorithms
 
-[](): an algorithm using mixed-integer linear programming to compute the minimum cost. However it works only for small enough networks. Dependency: PuLP.
-[](): an iterated local search.
+[MILP_Small_data](MILP_Small_data): an algorithm using mixed-integer linear programming to compute the minimum cost. However it works only for small enough networks. Dependency: PuLP.
+[ILS_Large_data.ipynb](ILS_Large_data.ipynb): an iterated local search that computes an approximation of the minimum cost in polynomial time complexity.
