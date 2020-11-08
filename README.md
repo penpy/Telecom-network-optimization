@@ -12,3 +12,8 @@ Constraints :
 - Connect customers to end offices. A large enough proportion of the customers must be connected. Each end office can be connected to a limited number of customers.
 
 The connections and selected hubs have attributed cost. The goal is to minimize the total cost.
+
+## Optimization algorithms
+
+[](): an algorithm using mixed-integer linear programming to compute the minimum cost. However it works only for small enough networks. Dependency: PuLP.
+[](): an iterated local search.
